@@ -9,7 +9,7 @@ public class Problem1001 {
 		Scanner ler = new Scanner(System.in);
 		a = ler.nextInt();
 		b = ler.nextInt();
-		System.out.print("X = "a+b);
+		System.out.print("X = "+ (a+b));
 		
 	}
 			
