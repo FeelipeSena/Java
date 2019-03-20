@@ -10,8 +10,6 @@ public class RunApp {
 		Disciplina disciplina = new Disciplina();
 		
 		System.out.println("Digite o nome da disciplina:");
-		//String name = scanner.nextLine();
-		//disciplina.setName(name);
 		disciplina.setName(scanner.nextLine());
 		
 		System.out.println("Digite o nome do professor:");
