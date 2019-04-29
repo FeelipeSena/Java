@@ -6,6 +6,7 @@ public class Problem1008 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+	
 		int numero, horas;
 		float salarioHoras, salary;
 		numero = scan.nextInt();
@@ -16,7 +17,7 @@ public class Problem1008 {
 		salary = salarioHoras * horas;
 		
 		System.out.println("NUMBER  = " + numero);
-		System.out.print("SALARY  = U$ " + salary);
+		System.out.printf("SALARY  = U$ %.2f",  salary);
 	}
 
 }

@@ -9,7 +9,7 @@ public class Problem1004 {
 		int a, b;
 		a = scan.nextInt();
 		b = scan.nextInt();
-		System.out.print("PROD = " +(a*b));
+		System.out.println("PROD = " +(a*b));
 	}
 
 }
